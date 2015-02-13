@@ -6,7 +6,7 @@
 
 ### Description Of the Files : 
 
-#### ActivityRecognitionInSmartphones.csv: A tidy data set as described in the documents stored in  
-#### run_analysis.R: Script for performing the analysis  
-#### CodeBook.md : A code book that describes the variables, the data, and any transformations or work that was performed to clean up the data. 
-#### README.md in the repo with your scripts. 
+* **ActivityRecognitionInSmartphones.csv:** A tidy data set as described in the documents stored in  
+* **run_analysis.R:** Script for performing the analysis  
+* **CodeBook.md:** A code book that describes the variables, the data, and any transformations or work that was performed to clean up the data. 
+* **README.md:** in the repo with your scripts. 
