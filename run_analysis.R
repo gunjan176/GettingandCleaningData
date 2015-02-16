@@ -21,7 +21,7 @@ mergeFiles <-function ()
                 dir.create("data/merged/Inertial Signals")        
         }
         
-        mergeFile("y_test.txt","data/train/y_train.txt" , "data/merged/y_merged.txt" )
+        mergeFile("data/test/y_test.txt","data/train/y_train.txt" , "data/merged/y_merged.txt" )
         mergeFile("data/test/X_test.txt","data/train/X_train.txt" , "data/merged/X_merged.txt" )
         mergeFile("data/test/subject_test.txt","data/train/subject_train.txt" , "data/merged/subject_merged.txt" )
         mergeFile("data/test/Inertial Signals/body_acc_x_test.txt","data/train/Inertial Signals/body_acc_x_train.txt","data/merged/Inertial Signals/body_acc_x_merged.txt")
@@ -34,3 +34,5 @@ mergeFiles <-function ()
         mergeFile("data/test/Inertial Signals/body_acc_y_test.txt","data/train/Inertial Signals/body_acc_y_train.txt","data/merged/Inertial Signals/body_acc_y_merged.txt")
         mergeFile("data/test/Inertial Signals/body_acc_z_test.txt","data/train/Inertial Signals/body_acc_z_train.txt","data/merged/Inertial Signals/body_acc_z_merged.txt")
 }
+
+
