@@ -8,7 +8,8 @@ The purpose of this project is to demonstrate the ability to collect, work with,
 
 ### Description Of the Files : 
 
-* **ActivityRecognitionInSmartphones.csv:** A tidy data set as described in the documents stored in  
-* **run_analysis.R:** Script for performing the analysis  
+**run_analysis.R:** Script for performing the analysis  
 * **CodeBook.md:** A code book that describes the variables, the data, and any transformations or work that was performed to clean up the data. 
 * **README.md:** Details of the added documents and the details in it. 
+
+For details on analysis please look at CodeBook.md
