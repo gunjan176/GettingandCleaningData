@@ -8,13 +8,13 @@ The features selected for this database come from the accelerometer and gyroscop
 
 ### Type of Activities Being Analysed
 
-			*WALKING
-			*WALKING_UPSTAIRS
-			*WALKING_DOWNSTAIRS
-			*SITTING
-			*STANDING
-			*LAYING
+			* WALKING
+			* WALKING_UPSTAIRS
+			* WALKING_DOWNSTAIRS
+			* SITTING
+			* STANDING
+			* LAYING
 
 ### Activity Captured in 
-			* ***Training Activities*** :y_train
-			* ***Testing Activities***  :y_testing
+			* **Training Activities:** :y_train.txt
+			* **Testing Activities:**  :y_test.txt
