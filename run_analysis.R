@@ -35,18 +35,18 @@ mergeFile <-function (testFN,trainFN)
 mergeAllFiles <-function ()
 {
         # load and merge the y params from both test and train and rename column header to a more readable name.        
-        y_merged<-mergeFile("data/test/y_test.txt","data/train/y_train.txt" )
+        y_merged<-mergeFile("y_test.txt","y_train.txt" )
         y_merged<-setnames(y_merged,"V1","ActivityName")
        
         # load and merge the x params from both test and train.   
-        x_merged <-mergeFile("data/test/X_test.txt","data/train/X_train.txt" )
+        x_merged <-mergeFile("X_test.txt","X_train.txt" )
         
         # load and merge subject details from both test and train.   
-        subject_merged <-mergeFile("data/test/subject_test.txt","data/train/subject_train.txt" )
+        subject_merged <-mergeFile("subject_test.txt","subject_train.txt" )
         subject_merged<-setnames(subject_merged,"V1","Subject")
         
         # load activity labels and rename the column header to more readable names.
-        activity_labels<-read.table("data/activity_labels.txt")
+        activity_labels<-read.table("activity_labels.txt")
         activity_labels<-setnames(activity_labels,c("ActivityName","Label"))
        
         # Column bind the data from all the sources and cast it in a data table. 
@@ -102,7 +102,7 @@ summarizeData<-function(mergedDataTable)
 mainFunction<-function()
 {
         summaryData<- summarizeData(extractMeanAndSD(mergeAllFiles()))
-        write.table(summaryData,file="data/output.txt",row.name=F)
+        write.table(summaryData,file="output.txt",row.name=F)
 }
 
 
