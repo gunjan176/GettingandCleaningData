@@ -1,5 +1,5 @@
 ##
-# MergeFile merges content of two files passed as parameter and returns a single data table containing consolidated data
+# mergeFile merges content of two files passed as parameter and returns a single data table containing consolidated data
 # Assumption :: the data in  testdata and training data has similar structure  
 # Requirment Addressed :: 
 #       1. Merges the training and the test sets to create one data set.
